@@ -9,7 +9,7 @@ import java.sql.SQLException;
  * @author 失去同步
  */
 public class MysqlUtil {
-    private static final String URL = "jdbc:mysql://47.100.95.175/geek";
+    private static final String URL = "jdbc:mysql://localhost/exam";
     private static final String USER = "student";
     private static final String PASSWORD = "465128451284651238456";
 
