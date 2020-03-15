@@ -28,7 +28,7 @@ public class MysqlUtil {
 
     public static Connection getConnection() {
         try {
-            if (connection == null || connection.isClosed()){
+            if (connection == null || !connection.isValid(2) || connection.isClosed()){
                 connect();
             }
         } catch (SQLException e) {
